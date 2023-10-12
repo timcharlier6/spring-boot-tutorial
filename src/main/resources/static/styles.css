@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: black;
+    color: aliceblue;
+    font-size: xx-large;
+    font-family: Calibri, sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+button {
+    border-radius: 1em 1em;
+    padding: 0.5em;
+}
+button, input {
+    font-size: large;
+}
+button:hover {
+    background-color: bisque;
+}
+
+/* unvisited link */
+a:link {
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+
+.container, .hello {
+    padding: 1rem; auto;
+}
+
+.btn2, .btn1, .btn3 {
+    display: block;
+    margin: 2em auto 0 auto;
+}
+.name-container {
+    display: block;
+}
